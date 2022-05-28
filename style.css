@@ -54,6 +54,11 @@ button {
   text-align: right;
 }
 
+.main-title {
+  text-align: center;
+  display: none;
+}
+
 .header__image {
   width: 100%;
 }
@@ -149,15 +154,12 @@ button {
 
 /* Edit Task */
 
-.section__list .text-input {
+.section__list .text-input,
+.edit-mode .edit-task {
   display: none;
 }
 
 .edit-mode .text-input {
   display: inline-block;
   width: 224px;
-}
-
-.edit-mode .edit-task {
-  display: none;
 }
