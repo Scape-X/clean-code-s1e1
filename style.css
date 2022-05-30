@@ -83,7 +83,7 @@ button {
   margin: 0 auto 0;
 }
 
-.section__title {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -112,7 +112,7 @@ button {
 
 /* To-do */
 
-.list-item {
+.section-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -156,7 +156,7 @@ button {
 
 /* Edit Task */
 
-.section__list .text-input,
+.section-list .text-input,
 .edit-mode .edit-task {
   display: none;
 }
