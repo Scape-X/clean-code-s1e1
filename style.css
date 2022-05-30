@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
 /* Basic Style */
 
 ul {
@@ -64,7 +66,7 @@ button {
 }
 
 .header__link {
-  font-family: fantasy, cursive;
+  font-family: 'Forum', cursive;
 }
 
 @media (max-width: 768px) {
